@@ -81,22 +81,23 @@ static const uint8_t SS   = SPI_SS_PIN;
 #define ESC_BTN  41   // BACK / ESC
 #define BTN_ACT  LOW
 
-// ── OLED SSD1106G / SH1106 (1.3", 128×64, I2C) ───────────────────────────────
-#define HAS_SCREEN  1
-#define ROTATION    0
-#define MINBRIGHT   0
+// ── OLED SSD1106G / SH1106 (1.3", 128×64, I2C) ───────────────────────────────           
+#define HAS_SCREEN 1
+#define ROTATION 0
+#define MINBRIGHT 0
 
-// Display backend selection is handled in ESP-General.ini (LovyanGFX)
-// #define USE_ARDUINO_GFX     1
-// #define TFT_DATABUS_N       5       
-// #define TFT_DISPLAY_DRIVER_N 48     
-// #define TFT_I2C_ADDR        0x3C
-// #define TFT_RST             -1
-// #define TFT_WIDTH           128
-// #define TFT_HEIGHT          64
-#define TFT_BL              -1
-#define BACKLIGHT           -1
-#define SMOOTH_FONT         0       // not needed on a monochrome OLED
+// --- Настройки для 7-пинового ST7789 ---
+#define USE_ARDUINO_GFX 1      // Включает поддержку дисплея через Arduino_GFX
+#define TFT_RST 17             // Пин RES
+#define TFT_DC 16              // Пин DC
+#define TFT_MOSI 23            // Пин SDA
+#define TFT_SCLK 18            // Пин SCL
+#define TFT_CS -1              // CS отсутствует, поэтому -1
+#define TFT_BL 4               // Пин BLK (подсветка)
+#define BACKLIGHT 4            // Дублирует TFT_BL для управления яркостью
+#define TFT_WIDTH 240          // Ширина
+#define TFT_HEIGHT 240         // Высота
+#define SMOOTH_FONT 0
 
 // ── Font sizes (tuned for the small OLED) ──────────────────────────────────────
 #define FP 1
