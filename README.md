@@ -18,13 +18,8 @@ Sub-GHz · NFC/RFID · IR · WiFi/BLE · NRF24 · Si5351 signal generator — on
 [![Stars](https://img.shields.io/github/stars/Yoursel71/BruceButBetter?style=flat-square&color=2ea043&logo=github&label=stars)](https://github.com/Yoursel71/BruceButBetter/stargazers)
 [![Forks](https://img.shields.io/github/forks/Yoursel71/BruceButBetter?style=flat-square&color=1f6feb&logo=github&label=forks)](https://github.com/Yoursel71/BruceButBetter/network/members)
 [![Issues](https://img.shields.io/github/issues/Yoursel71/BruceButBetter?style=flat-square&color=f78166&label=issues)](https://github.com/Yoursel71/BruceButBetter/issues)
-[![Last commit](https://img.shields.io/github/last-commit/Yoursel71/BruceButBetter?style=flat-square&color=6e7681&label=last%20commit)](https://github.com/Yoursel71/BruceButBetter/commits)
+[![Last commit](https://img.shields.io/github/last-commit/Yoursel71/BruceButBetter?style=flat-square&color=6e7681&label=last%20commit)](https://github.com/Yoursel71/BruceButBetter/commits
 
-**[ BUILD YOUR OWN ](./docs/BUILD.md)** ·
-**[ WEB FLASHER ](https://Yoursel71.github.io/BruceButBetter/)** ·
-**[ RELEASES ](https://github.com/Yoursel71/BruceButBetter/releases)** ·
-**[ CONTRIBUTE ](./CONTRIBUTING.md)** ·
-**[ REPORT A BUG ](https://github.com/Yoursel71/BruceButBetter/issues/new/choose)**
 
 </div>
 
